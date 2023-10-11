@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <!-- Container for the entire to-do list -->
+    <div class="todo-container">
+        <!-- Heading for the to-do list -->
+        <h1>To-Do List</h1>
+        <!-- Input container for entering tasks -->
+        <div class="input-container">
+            <input type="text" id="task-input" placeholder="Enter your task">
+            <!-- Button to add tasks -->
+            <button id="add-button">Add</button>
+        </div>
+        <!-- Unordered list to display the list of tasks -->
+        <ul id="todo-list"></ul>
+        <!-- Container to display the count of tasks -->
+        <div class="task-counts">
+            <p>Tasks to be done: <span id="task-count">0</span></p>
+        </div>
+    </div>
+    <script src="todolist.js"></script>
+</body>
+</html>

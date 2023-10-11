@@ -1,0 +1,51 @@
+body {
+    font-family: 'Times New Roman', Times, serif ;
+    background-color:lightblue;
+
+}
+
+.todo-container {
+    display: block;
+    justify-content:center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+    text-align: center;
+    background-color: lightseagreen;    
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+button{
+    background-color: black;
+    color:#999;
+}
+button:hover{
+    background-color: white;
+}
+
+.delete-button{
+    margin-left: 20px;
+    background-color:#B3E0F2;
+    border-radius: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #999;
+}
